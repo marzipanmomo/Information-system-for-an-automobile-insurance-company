@@ -133,6 +133,7 @@ public:
 	vector<Vehicle*>& getVehicles();
 	char* getAddress();
 	char* getPhoneNumber();
+	~Customer();
 };
 
 class Workshop { //contains staff
@@ -145,6 +146,7 @@ public:
 	Workshop(char*, char*, vector<Staff*>, vector<Vehicle*>);
 	void assignVehicleWorkshop(Vehicle*);
 	char* getID() const;
+	~Workshop();
 };
 
 class Vehicle { //linked to customer
@@ -412,7 +414,7 @@ public:
 	void displayInspectionReports();
 	void displayCustomerClaimHistory(Customer*);
 	void saveInspection(Inspection*);
-
+	~Company();
 	void addCustomer(char*, char*, char*);
 	void registerVehicle(Customer*, int, InsuranceDetails*, Workshop*);
 
@@ -760,6 +762,28 @@ void Workshop::assignVehicleWorkshop(Vehicle* v) {
 
 char* Workshop::getID() const { return workshopID; }
 
+/*------------------------------------------------------------------------------------------------------------*/
+// DESTRUCTORS
+/*------------------------------------------------------------------------------------------------------------*/
+
+Company::~Company() {
+	for (Customer* c : customers) delete c;
+	for (Workshop* w : workshops) delete w;
+	for (Claim* cl : claims) delete cl;
+}
+
+Customer::~Customer() {
+	for (Vehicle* v : vehicle) delete v;
+}
+
+Workshop::~Workshop() {
+	for (Staff* s : staffList) delete s;
+	for (Vehicle* v : vehicleList) delete v;
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+// presentation layer - user interface
+/*------------------------------------------------------------------------------------------------------------*/
 
 class InsuranceSystemController {
 private:
@@ -780,10 +804,6 @@ public:
 	void displayCustomerClaimHistory(int);
 	void saveInspection(Inspection*);
 };
-
-/*------------------------------------------------------------------------------------------------------------*/
-// presentation layer - user interface
-/*------------------------------------------------------------------------------------------------------------*/
 
 InsuranceSystemController::InsuranceSystemController(char* name, char* addr,
 	vector<Customer*> customer, vector<Workshop*> workshop, vector<Claim*> claim) {
