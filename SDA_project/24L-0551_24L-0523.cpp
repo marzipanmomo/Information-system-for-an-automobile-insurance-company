@@ -54,7 +54,6 @@ class Inspection;
 
 /*------------------------------------------------------------------------------------------------------------*/
 //business layer - classes
-//these will handle file handling - the menu will not do this directly
 /*------------------------------------------------------------------------------------------------------------*/
 
 class Staff {
@@ -775,6 +774,11 @@ public:
 	void claimApprovalByManager();
 	void vehicleRepairAtRegisteredWorkshop();
 	void registerWorkshop(char*, char*, vector<Staff*>);
+	void displayNewCustomersWon();
+	void displayPendingClaims();
+	void displayInspectionReports();
+	void displayCustomerClaimHistory(int);
+	void saveInspection(Inspection*);
 };
 
 /*------------------------------------------------------------------------------------------------------------*/
@@ -943,6 +947,18 @@ void InsuranceSystemController::registerWorkshop(char* id, char* addr, vector<St
 	c->registerWorkshop(id, addr, staff);
 }
 
+void InsuranceSystemController::displayNewCustomersWon() { c->displayNewCustomersWon(); }
+void InsuranceSystemController::displayPendingClaims() { c->displayPendingClaims(); }
+void InsuranceSystemController::displayInspectionReports() { c->displayInspectionReports(); }
+void InsuranceSystemController::displayCustomerClaimHistory(int id) {
+	Customer* cust = c->findCustomerByID(id);
+	if (!cust) {
+		cout << "Customer not found with ID " << id << endl;
+		return;
+	}
+	c->displayCustomerClaimHistory(cust);
+}
+
 /*------------------------------------------------------------------------------------------------------------*/
 
 void menu() {
@@ -966,7 +982,8 @@ void menu() {
 	do {
 		cout <<
 			"1. Register Customer\n2. Register Vehicle\n3. Issue Insurance Policy\n4. Submit Claim\n5. Inspection By Surveyor\n" <<
-			"6. Claim Approval By Manager\n7. Register Workshop\n8. Vehicle Repair At Registered Workshop\n9. Exit" << endl;
+			"6. Claim Approval By Manager\n7. Register Workshop\n8. Vehicle Repair At Registered Workshop\n9. Display New Customers Won\n"
+			<< "10. displayPendingClaims\n11. Display Inspection Reports\n12. Display Customer Claim History\n13. Exit" << endl;
 		cout << "Enter Input: ";
 		cin >> userInput;
 		cout << endl;
@@ -1026,13 +1043,28 @@ void menu() {
 			i.vehicleRepairAtRegisteredWorkshop();
 		}
 		else if (userInput == 9) {
+			i.displayNewCustomersWon();
+		}
+		else if (userInput == 10) {
+			i.displayPendingClaims();
+		}
+		else if (userInput == 11) {
+			i.displayInspectionReports();
+		}
+		else if (userInput == 12) {
+			int customerID;
+			cout << "Enter customer ID: ";
+			cin >> customerID;
+			i.displayCustomerClaimHistory(customerID);
+		}
+		else if (userInput == 13) {
 			cout << "Program Terminated" << endl;
 		}
 		else {
 			cout << "Invalid Input" << endl;
 		}
 		cout << endl;
-	} while (userInput != 9);
+	} while (userInput != 13);
 }
 
 /*------------------------------------------------------------------------------------------------------------*/
