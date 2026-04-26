@@ -223,10 +223,10 @@ private:
 	// CHANGE: helper to parse one line from customers.dat (reduces MVG of loadAll)
 	Customer* parseLine(char* line) {
 		char* next = nullptr;
-		char* id = strtok_r(line, "|", &next);
-		char* name = strtok_r(nullptr, "|", &next);
-		char* addr = strtok_r(nullptr, "|", &next);
-		char* phone = strtok_r(nullptr, "|", &next);
+		char* id = strtok_s(line, "|", &next);
+		char* name = strtok_s(nullptr, "|", &next);
+		char* addr = strtok_s(nullptr, "|", &next);
+		char* phone = strtok_s(nullptr, "|", &next);
 		if (id && name && addr && phone) {
 			vector<Vehicle*> v;
 			return new Customer(atoi(id), name, addr, phone, v);
@@ -312,8 +312,8 @@ public:
 		char line[256];
 		while (in.getline(line, 256)) {
 			char* next = nullptr;
-			char* id = strtok_r(line, "|", &next);
-			char* year = strtok_r(nullptr, "|", &next);
+			char* id = strtok_s(line, "|", &next);
+			char* year = strtok_s(nullptr, "|", &next);
 			if (id && year)
 				vehicles.push_back(new Vehicle(atoi(id), atoi(year), nullptr, nullptr));
 		}
@@ -348,9 +348,9 @@ public:
 		char line[256];
 		while (in.getline(line, 256)) {
 			char* next = nullptr;
-			char* id = strtok_r(line, "|", &next);
-			char* status = strtok_r(nullptr, "|", &next);
-			char* date = strtok_r(nullptr, "|", &next);
+			char* id = strtok_s(line, "|", &next);
+			char* status = strtok_s(nullptr, "|", &next);
+			char* date = strtok_s(nullptr, "|", &next);
 			if (id && status && date)
 				claims.push_back(new Claim(atoi(id), (ClaimStatus)atoi(status), date, nullptr));
 		}
@@ -407,9 +407,9 @@ public:
 		char line[256];
 		in.getline(line, 256);
 		char* next = nullptr;
-		char* token = strtok_r(line, "|", &next);
+		char* token = strtok_s(line, "|", &next);
 		if (token) { name = new char[strlen(token) + 1]; strcpy(name, token); }
-		token = strtok_r(nullptr, "|", &next);
+		token = strtok_s(nullptr, "|", &next);
 		if (token) { address = new char[strlen(token) + 1]; strcpy(address, token); }
 		cout << "company data loaded\n";
 	}
