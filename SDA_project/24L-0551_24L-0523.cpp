@@ -29,14 +29,6 @@ transactions
 */
 
 /*------------------------------------------------------------------------------------------------------------*/
-// application layer - we could add a controller class
-/*------------------------------------------------------------------------------------------------------------*/
-
-// reads user input from menu()
-// calls the right company or customer methods
-// handles flow
-
-/*------------------------------------------------------------------------------------------------------------*/
 // Forward declarations — needed so classes can reference each other via pointers
 /*------------------------------------------------------------------------------------------------------------*/
 
@@ -56,6 +48,8 @@ class Inspection;
 //business layer - classes
 /*------------------------------------------------------------------------------------------------------------*/
 
+// Abstract class
+// Represents a staff member (Manager, Salesman, Surveyor) in the insurance system
 class Staff {
 private:
 	int staffID;
@@ -73,6 +67,8 @@ public:
 	int getStaffID() const { return staffID; }
 };
 
+// Represents a manager in the insurance system.
+// Stores personal details and responsibilities.
 class Manager : public Staff {
 private:
 	char* designation;
@@ -86,6 +82,9 @@ public:
 	void reviewInspectionReport(Inspection*) {}
 };
 
+
+// Represents a salesman in the insurance system.
+// Stores personal details and responsibilities.
 class Salesman : public Staff {
 private:
 	Manager* manager;
@@ -95,6 +94,9 @@ public:
 	}
 };
 
+
+// Represents a surveyor in the insurance system.
+// Stores personal details and responsibilities.
 class Surveyor : public Staff {
 private:
 	Manager* manager;
@@ -104,6 +106,9 @@ public:
 	}
 };
 
+
+// Represents an insurance policy in the insurance system.
+// Stores policy details.
 class InsuranceDetails {
 private:
 	int policyNumber;
@@ -118,6 +123,8 @@ public:
 	char* getValidUntil() const { return validUntil; }
 };
 
+// Represents a customer in the insurance system.
+// Stores personal details and links to claims.
 class Customer { //owns vehicle, has insurance policies
 private:
 	int customerID;
@@ -136,6 +143,8 @@ public:
 	~Customer();
 };
 
+// Represents a workshop in the insurance system.
+// Stores staff and vehicles.
 class Workshop { //contains staff
 private:
 	char* workshopID;
@@ -149,6 +158,8 @@ public:
 	~Workshop();
 };
 
+// Represents a vehicle in the insurance system.
+// Linked to customer.
 class Vehicle { //linked to customer
 private:
 	int vehicleID;
@@ -167,6 +178,8 @@ public:
 	Customer* getOwner() const;
 };
 
+// Represents a claim in the insurance system.
+// Linked to a vehicle.
 class Claim { //raised when vehicle is damaged
 private:
 	int claimID;
@@ -183,6 +196,8 @@ public:
 	char* getDate() const;
 };
 
+// Represents an inspection in the insurance system.
+// Linked to a surveyor and a claim.
 class Inspection { //performed by surveyor, linked to claim
 private:
 	int inspectionID;
@@ -201,6 +216,8 @@ public:
 // isolate file handling into helper classes instead of putting file I/O inside Customer and Vehicle
 /*------------------------------------------------------------------------------------------------------------*/
 
+// Repository for managing Customer objects.
+// Provides add, remove, and search functionality.
 class CustomerRepository {
 public:
 	// Append one customer record to customers.dat
@@ -224,12 +241,15 @@ public:
 		if (!in) { cerr << "cannot open customers.dat\n"; return customers; }
 
 		char line[256];
+		// Read each line from file
 		while (in.getline(line, 256)) {
+			// Tokenize line into fields (ID, name, etc.)
 			char* next = nullptr;
 			char* id = strtok_s(line, "|", &next);
 			char* name = strtok_s(nullptr, "|", &next);
 			char* addr = strtok_s(nullptr, "|", &next);
 			char* phone = strtok_s(nullptr, "|", &next);
+			// Construct object and add to vector
 			if (id && name && addr && phone) {
 				vector<Vehicle*> v;
 				customers.push_back(new Customer(atoi(id), name, addr, phone, v));
@@ -262,6 +282,8 @@ public:
 	}
 };
 
+// Repository for managing Vehicle objects.
+// Provides add, remove, and search functionality.
 class VehicleRepository {
 public:
 	// Append one vehicle record to vehicles.dat
@@ -284,10 +306,13 @@ public:
 		ifstream in("vehicles.dat");
 		if (!in) { cerr << "cannot open vehicles.dat\n"; return vehicles; }
 		char line[256];
+		// Read each line from file
 		while (in.getline(line, 256)) {
+			// Tokenize line into fields (ID, name, etc.)
 			char* next = nullptr;
 			char* id = strtok_s(line, "|", &next);
 			char* year = strtok_s(nullptr, "|", &next);
+			// Construct object and add to vector
 			if (id && year)
 				vehicles.push_back(new Vehicle(atoi(id), atoi(year), nullptr, nullptr, nullptr));
 		}
@@ -295,6 +320,8 @@ public:
 	}
 };
 
+// Repository for managing Claim objects.
+// Provides add, remove, and search functionality.
 class ClaimRepository {
 public:
 	// Append one claim record to claims.dat
@@ -318,11 +345,14 @@ public:
 		ifstream in("claims.dat");
 		if (!in) { cerr << "cannot open claims.dat\n"; return claims; }
 		char line[256];
+		// Read each line from file
 		while (in.getline(line, 256)) {
+			// Tokenize line into fields (ID, name, etc.)
 			char* next = nullptr;
 			char* id = strtok_s(line, "|", &next);
 			char* status = strtok_s(nullptr, "|", &next);
 			char* date = strtok_s(nullptr, "|", &next);
+			// Construct object and add to vector
 			if (id && status && date)
 				claims.push_back(new Claim(atoi(id), (ClaimStatus)atoi(status), date, nullptr));
 		}
@@ -330,6 +360,8 @@ public:
 	}
 };
 
+// Repository for managing Claim objects.
+// Provides add, remove, and search functionality.
 class InspectionRepository {
 public:
 	// appending one inspection report to inspections.dat
@@ -356,6 +388,8 @@ public:
 	}
 };
 
+// Repository for managing Company objects.
+// Provides add, remove, and search functionality.
 class CompanyRepository {
 public:
 	void save(char* name, char* address) {
@@ -386,6 +420,8 @@ public:
 // COMPANY
 /*------------------------------------------------------------------------------------------------------------*/
 
+// Represents the company in the insurance system.
+// Stores company details and links to the business classes.
 class Company { //contains workshops
 private:
 	char* companyName;
@@ -462,9 +498,11 @@ void Company::addCustomer(char* name, char* address, char* phoneNumber) {
 }
 
 void Company::registerVehicle(Customer* owner, int year, InsuranceDetails* insurance, Workshop* workshop) {
-	int vehicleID = nextVehicleID++; // unique global ID
+	// Generate unique global vehicle ID
+	int vehicleID = nextVehicleID++;
 	Vehicle* v = new Vehicle(vehicleID, year, owner, insurance, workshop);
 	owner->getVehicles().push_back(v);
+	// Save vehicle record to repository
 	vehicleRepo.save(v); // repository handles file I/O
 	cout << "Vehicle registered with global ID " << vehicleID << "\n";
 }
@@ -496,13 +534,17 @@ void Company::listRegisteredCustomers(char* month) {
 void Company::createClaim() {
 	int id = claims.size() + 1;
 	char date[50];
+
+	// Prompt user for date
 	cout << "enter date (dd/mm/yyyy) : ";
 	cin >> date;
 
+	// Prompt user for vehicle ID
 	cout << "enter vehicle id : ";
 	int vid;
 	cin >> vid;
 
+	// Search through all customers and their vehicles
 	Vehicle* v = nullptr;
 	for (int i = 0; i < customers.size(); i++) {
 		vector<Vehicle*> vehicles = customers[i]->getVehicles();
@@ -513,12 +555,14 @@ void Company::createClaim() {
 		}
 	}
 
+	// If matching vehicle ID is found, link claim to that vehicle
 	if (v) {
 		Claim* c = new Claim(id, pending, date, v);
 		claims.push_back(c);
 		claimRepo.save(c); // repository handles file I/O
 		cout << "claim created with id : " << id << "\n";
 	}
+	// If no vehicle found, print error message
 	else {
 		cout << "vehicle not found\n";
 	}
@@ -553,11 +597,14 @@ void Company::saveInspection(Inspection* insp) {
 }
 
 void Company::displayCustomerClaimHistory(Customer* c) {
+	// Validate customer pointer
 	if (!c) {
 		cout << "invalid customer\n";
 	}
 	else {
+		// Search claims belonging to this customer
 		bool found = false;
+		// Display claims if found, otherwise print message
 		for (int i = 0; i < claims.size(); i++) {
 			if (claims[i]->getBelongsTo() == c) {
 				claims[i]->display();
@@ -766,25 +813,35 @@ char* Workshop::getID() const { return workshopID; }
 // DESTRUCTORS
 /*------------------------------------------------------------------------------------------------------------*/
 
+// Clean up dynamically allocated objects to prevent memory leaks
 Company::~Company() {
 	for (Customer* c : customers) delete c;
 	for (Workshop* w : workshops) delete w;
 	for (Claim* cl : claims) delete cl;
 }
 
+// Clean up dynamically allocated objects to prevent memory leaks
 Customer::~Customer() {
 	for (Vehicle* v : vehicle) delete v;
 }
 
+// Clean up dynamically allocated objects to prevent memory leaks
 Workshop::~Workshop() {
 	for (Staff* s : staffList) delete s;
 	for (Vehicle* v : vehicleList) delete v;
 }
+/*------------------------------------------------------------------------------------------------------------*/
+// application layer
+/*------------------------------------------------------------------------------------------------------------*/
+
+// reads user input from menu()
+// calls the right company or customer methods
+// handles flow
 
 /*------------------------------------------------------------------------------------------------------------*/
-// presentation layer - user interface
-/*------------------------------------------------------------------------------------------------------------*/
 
+// Initializes the insurance system controller.
+// Creates a Company object with provided customers, workshops, and claims.
 class InsuranceSystemController {
 private:
 	Company* c;
@@ -810,10 +867,14 @@ InsuranceSystemController::InsuranceSystemController(char* name, char* addr,
 	c = new Company(name, addr, customer, workshop, claim);
 }
 
+// Handles customer registration workflow.
+// Validates input and stores customer in repository.
 void InsuranceSystemController::registerCustomer(char* name, char* addr, char* number) {
 	c->addCustomer(name, addr, number);
 }
 
+// Handles vehicle registration workflow.
+// Validates input and stores vehicle in repository.
 void InsuranceSystemController::registerVehicle(int customerID, int year) {
 	Customer* owner = c->findCustomerByID(customerID);
 	if (!owner) {
@@ -827,8 +888,12 @@ void InsuranceSystemController::registerVehicle(int customerID, int year) {
 	c->registerVehicle(owner, year, insurance, workshop);
 }
 
+// Handles insurance policy issuance workflow.
+// Validates input and stores insurance policy in repository.
 void InsuranceSystemController::issueInsurancePolicy() {
 	int vehicleID;
+
+	// Prompt user for vehicle ID
 	cout << "Enter vehicle ID: ";
 	cin >> vehicleID;
 
@@ -840,8 +905,12 @@ void InsuranceSystemController::issueInsurancePolicy() {
 
 	int policyNum;
 	char* expiry = new char[MAX_LEN];
+
+	// Prompt user for policy number
 	cout << "Enter policy number: ";
 	cin >> policyNum;
+
+	// Prompt user for expiry date
 	cout << "Enter expiry date: ";
 	cin.ignore();
 	cin.getline(expiry, MAX_LEN);
@@ -851,15 +920,21 @@ void InsuranceSystemController::issueInsurancePolicy() {
 	v->issueInsurancePolicy();
 }
 
+// Handles claim submission workflow.
+// Stores claim in repository.
 void InsuranceSystemController::submitClaim() {
 	c->createClaim();
 }
 
+// Handles inspection workflow.
+// Validates input and carries out inspection.
 void InsuranceSystemController::inspectionBySurveyor() {
+	// Prompt user for claim ID
 	int claimID;
 	cout << "Enter claim ID: ";
 	cin >> claimID;
 
+	// Search for claim in repository
 	Claim* cl = nullptr;
 	for (Claim* claim : c->getClaims()) {
 		if (claim->getClaimID() == claimID) {
@@ -874,6 +949,8 @@ void InsuranceSystemController::inspectionBySurveyor() {
 	}
 
 	char* findings = new char[MAX_LEN];
+
+	// Prompt user for inspection findings
 	cout << "Enter inspection findings: ";
 	cin.ignore();
 	cin.getline(findings, MAX_LEN);
@@ -888,8 +965,12 @@ void InsuranceSystemController::inspectionBySurveyor() {
 	delete[] report;
 }
 
+// Handles claim approval workflow.
+// Validates input and updates claim status.
 void InsuranceSystemController::claimApprovalByManager() {
 	int claimID;
+
+	// Prompt user for claim ID
 	cout << "Enter claim ID: ";
 	cin >> claimID;
 
@@ -907,6 +988,7 @@ void InsuranceSystemController::claimApprovalByManager() {
 	}
 
 	int choice;
+	// Prompt user for choice
 	cout << "Approve (1) or Reject (2): ";
 	cin >> choice;
 
@@ -920,11 +1002,15 @@ void InsuranceSystemController::claimApprovalByManager() {
 	}
 }
 
+// Handles vehicle repair workflow.
+// Validates input and repairs vehicle.
 void InsuranceSystemController::vehicleRepairAtRegisteredWorkshop() {
+	// Prompt user for vehicle ID
 	int vehicleID;
 	cout << "Enter vehicle ID: ";
 	cin >> vehicleID;
 
+	// Search for vehicle in customer list
 	Vehicle* v = nullptr;
 	for (Customer* cust : c->getCustomers()) {
 		for (Vehicle* veh : cust->getVehicles()) {
@@ -942,10 +1028,13 @@ void InsuranceSystemController::vehicleRepairAtRegisteredWorkshop() {
 	}
 
 	char* workshopID = new char[MAX_LEN];
+
+	// Prompt user for workshop ID
 	cout << "Enter workshop ID: ";
 	cin.ignore();
 	cin.getline(workshopID, MAX_LEN);
 
+	// Search for workshop in company list
 	Workshop* w = nullptr;
 	for (Workshop* ws : c->getWorkshops()) {
 		if (strcmp(ws->getID(), workshopID) == 0) {
@@ -959,17 +1048,27 @@ void InsuranceSystemController::vehicleRepairAtRegisteredWorkshop() {
 		return;
 	}
 
+	// Assign vehicle to workshop if found
 	w->assignVehicleWorkshop(v);
 	cout << "Vehicle assigned to workshop.\n";
 }
 
+// Handles workshop registration workflow.
+// Validates input and stores vehicle in repository.
 void InsuranceSystemController::registerWorkshop(char* id, char* addr, vector<Staff*> staff) {
 	c->registerWorkshop(id, addr, staff);
 }
 
+// Displays newly registered customers.
 void InsuranceSystemController::displayNewCustomersWon() { c->displayNewCustomersWon(); }
+
+// Displays all pending claims.
 void InsuranceSystemController::displayPendingClaims() { c->displayPendingClaims(); }
+
+// Displays all inspection reports
 void InsuranceSystemController::displayInspectionReports() { c->displayInspectionReports(); }
+
+// Displays claim history for a given customer.
 void InsuranceSystemController::displayCustomerClaimHistory(int id) {
 	Customer* cust = c->findCustomerByID(id);
 	if (!cust) {
@@ -980,16 +1079,23 @@ void InsuranceSystemController::displayCustomerClaimHistory(int id) {
 }
 
 /*------------------------------------------------------------------------------------------------------------*/
+// presentation layer - user interface
+/*------------------------------------------------------------------------------------------------------------*/
 
 void menu() {
 	//will use a do while loop to allow user input and
 	//execution of different use-cases
+
 	int userInput;
 	char* name = new char[MAX_LEN];
+
+	// Prompt user for company name
 	cout << "Enter Company Name: ";
 	cin.getline(name, MAX_LEN);
 
 	char* addr = new char[MAX_LEN];
+
+	// Prompt user for address
 	cout << "Enter Address: ";
 	cin.getline(addr, MAX_LEN);
 
@@ -1004,20 +1110,25 @@ void menu() {
 			"1. Register Customer\n2. Register Vehicle\n3. Issue Insurance Policy\n4. Submit Claim\n5. Inspection By Surveyor\n" <<
 			"6. Claim Approval By Manager\n7. Register Workshop\n8. Vehicle Repair At Registered Workshop\n9. Display New Customers Won\n"
 			<< "10. displayPendingClaims\n11. Display Inspection Reports\n12. Display Customer Claim History\n13. Exit" << endl;
+		
+		// Prompt user for menu input
 		cout << "Enter Input: ";
 		cin >> userInput;
 		cout << endl;
 
 		if (userInput == 1) {
 			cin.ignore();
+			// Prompt user for customer name
 			cout << "Enter customer name: ";
 			char* name = new char[MAX_LEN];
 			cin.getline(name, MAX_LEN);
 
+			// Prompt user for customer address
 			cout << "Enter customer address: ";
 			char* addr = new char[MAX_LEN];
 			cin.getline(addr, MAX_LEN);
 
+			// Prompt user for customer phone number
 			cout << "Enter customer phone number: ";
 			char* number = new char[MAX_LEN];
 			cin.getline(number, MAX_LEN);
@@ -1026,9 +1137,12 @@ void menu() {
 		}
 		else if (userInput == 2) {
 			int customerID, year;
+
+			// Prompt user for customer ID
 			cout << "Enter customer ID: ";
 			cin >> customerID;
 
+			// Prompt user for year
 			cout << "Enter year: ";
 			cin >> year;
 			i.registerVehicle(customerID, year);
@@ -1050,9 +1164,11 @@ void menu() {
 			char* workshopID = new char[MAX_LEN];
 			char* addr = new char[MAX_LEN];
 
+			// Prompt user for workshop ID
 			cout << "Enter workshop ID: ";
 			cin.getline(workshopID, MAX_LEN);
 
+			// Prompt user for workshop address
 			cout << "Enter workshop address: ";
 			cin.getline(addr, MAX_LEN);
 
@@ -1073,6 +1189,8 @@ void menu() {
 		}
 		else if (userInput == 12) {
 			int customerID;
+
+			// Prompt user for customer ID
 			cout << "Enter customer ID: ";
 			cin >> customerID;
 			i.displayCustomerClaimHistory(customerID);

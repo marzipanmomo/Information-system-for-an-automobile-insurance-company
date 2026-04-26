@@ -1,0 +1,422 @@
+CCCC_Module@Claim@class@
+CCCC_ModExt@Claim@class@24L-0551_24L-0523.cpp@52@declaration@????2@LOC:1 COM:0 MVG:0@2@D@
+CCCC_ModExt@Claim@class@24L-0551_24L-0523.cpp@170@definition@T???2@LOC:8 COM:1 MVG:0@2@d@
+CCCC_Module@ClaimRepository@class@
+CCCC_ModExt@ClaimRepository@class@24L-0551_24L-0523.cpp@298@definition@F???2@LOC:3 COM:0 MVG:0@2@d@
+CCCC_Module@ClaimStatus@enum@
+CCCC_ModExt@ClaimStatus@enum@24L-0551_24L-0523.cpp@10@definition@?????@LOC:0 COM:0 MVG:0@?@d@
+CCCC_Module@Company@class@
+CCCC_ModExt@Company@class@24L-0551_24L-0523.cpp@43@declaration@????2@LOC:1 COM:27 MVG:0@2@D@
+CCCC_ModExt@Company@class@24L-0551_24L-0523.cpp@389@definition@F???2@LOC:15 COM:6 MVG:0@2@d@
+CCCC_Module@CompanyRepository@class@
+CCCC_ModExt@CompanyRepository@class@24L-0551_24L-0523.cpp@359@definition@F???2@LOC:3 COM:0 MVG:0@2@d@
+CCCC_Module@Customer@class@
+CCCC_ModExt@Customer@class@24L-0551_24L-0523.cpp@49@declaration@????2@LOC:1 COM:0 MVG:0@2@D@
+CCCC_ModExt@Customer@class@24L-0551_24L-0523.cpp@121@definition@F???2@LOC:9 COM:2 MVG:0@2@d@
+CCCC_Module@CustomerRepository@class@
+CCCC_ModExt@CustomerRepository@class@24L-0551_24L-0523.cpp@204@definition@F???2@LOC:3 COM:4 MVG:0@2@d@
+CCCC_Module@Inspection@class@
+CCCC_ModExt@Inspection@class@24L-0551_24L-0523.cpp@53@declaration@????2@LOC:1 COM:0 MVG:0@2@D@
+CCCC_ModExt@Inspection@class@24L-0551_24L-0523.cpp@186@definition@F???2@LOC:9 COM:1 MVG:0@2@d@
+CCCC_Module@InspectionRepository@class@
+CCCC_ModExt@InspectionRepository@class@24L-0551_24L-0523.cpp@333@definition@F???2@LOC:3 COM:0 MVG:0@2@d@
+CCCC_Module@InsuranceDetails@class@
+CCCC_ModExt@InsuranceDetails@class@24L-0551_24L-0523.cpp@51@declaration@????2@LOC:1 COM:0 MVG:0@2@D@
+CCCC_ModExt@InsuranceDetails@class@24L-0551_24L-0523.cpp@107@definition@T???2@LOC:6 COM:0 MVG:0@2@d@
+CCCC_Module@InsuranceSystemController@class@
+CCCC_ModExt@InsuranceSystemController@class@24L-0551_24L-0523.cpp@788@definition@F???2@LOC:5 COM:3 MVG:0@2@d@
+CCCC_Module@Manager@class@
+CCCC_ModExt@Manager@class@24L-0551_24L-0523.cpp@48@declaration@????2@LOC:1 COM:0 MVG:0@2@D@
+CCCC_ModExt@Manager@class@24L-0551_24L-0523.cpp@76@definition@F???0@LOC:5 COM:0 MVG:0@0@d@
+CCCC_Module@Salesman@class@
+CCCC_ModExt@Salesman@class@24L-0551_24L-0523.cpp@46@declaration@????2@LOC:1 COM:0 MVG:0@2@D@
+CCCC_ModExt@Salesman@class@24L-0551_24L-0523.cpp@89@definition@F???0@LOC:5 COM:0 MVG:0@0@d@
+CCCC_Module@Staff@class@
+CCCC_ModExt@Staff@class@24L-0551_24L-0523.cpp@45@declaration@????2@LOC:1 COM:0 MVG:0@2@D@
+CCCC_ModExt@Staff@class@24L-0551_24L-0523.cpp@59@definition@T???2@LOC:6 COM:3 MVG:0@2@d@
+CCCC_Module@Surveyor@class@
+CCCC_ModExt@Surveyor@class@24L-0551_24L-0523.cpp@47@declaration@????2@LOC:1 COM:0 MVG:0@2@D@
+CCCC_ModExt@Surveyor@class@24L-0551_24L-0523.cpp@98@definition@F???0@LOC:5 COM:0 MVG:0@0@d@
+CCCC_Module@Vehicle@class@
+CCCC_ModExt@Vehicle@class@24L-0551_24L-0523.cpp@50@declaration@????2@LOC:1 COM:0 MVG:0@2@D@
+CCCC_ModExt@Vehicle@class@24L-0551_24L-0523.cpp@152@definition@T???2@LOC:9 COM:1 MVG:0@2@d@
+CCCC_Module@VehicleRepository@class@
+CCCC_ModExt@VehicleRepository@class@24L-0551_24L-0523.cpp@265@definition@F???2@LOC:3 COM:0 MVG:0@2@d@
+CCCC_Module@Workshop@class@
+CCCC_ModExt@Workshop@class@24L-0551_24L-0523.cpp@44@declaration@????2@LOC:1 COM:0 MVG:0@2@D@
+CCCC_ModExt@Workshop@class@24L-0551_24L-0523.cpp@139@definition@F???2@LOC:8 COM:1 MVG:0@2@d@
+CCCC_Module@anonymous@@
+CCCC_Module@char@builtin@
+CCCC_ModExt@char@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@double@builtin@
+CCCC_ModExt@double@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@float@builtin@
+CCCC_ModExt@float@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@int@builtin@
+CCCC_ModExt@int@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@long@builtin@
+CCCC_ModExt@long@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Module@vector@@
+CCCC_Module@void@builtin@
+CCCC_ModExt@void@builtin@<nofile>@0@builtin definition@d?????@@0@d@
+CCCC_Member@Claim@Claim@@(int,ClaimStatus,char *,Vehicle *)@
+CCCC_MemExt@Claim@Claim@@(int,ClaimStatus,char *,Vehicle *)@24L-0551_24L-0523.cpp@177@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Claim@Claim@@(int,ClaimStatus,char *,Vehicle *)@24L-0551_24L-0523.cpp@698@definition@F????@LOC:7 COM:6 MVG:0@?@d@
+CCCC_Member@Claim@display@@()@
+CCCC_MemExt@Claim@display@@()@24L-0551_24L-0523.cpp@180@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Claim@display@@()@24L-0551_24L-0523.cpp@711@definition@F????@LOC:3 COM:0 MVG:0@?@d@
+CCCC_Member@Claim@getBelongsTo@@()@
+CCCC_MemExt@Claim@getBelongsTo@@()@24L-0551_24L-0523.cpp@181@declaration@T???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Claim@getBelongsTo@@()@24L-0551_24L-0523.cpp@715@definition@T????@LOC:3 COM:0 MVG:3@?@d@
+CCCC_Member@Claim@getClaimID@@()@
+CCCC_MemExt@Claim@getClaimID@@()@24L-0551_24L-0523.cpp@182@declaration@T???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Claim@getClaimID@@()@24L-0551_24L-0523.cpp@709@definition@T????@LOC:1 COM:0 MVG:1@?@d@
+CCCC_Member@Claim@getDate@@()@
+CCCC_MemExt@Claim@getDate@@()@24L-0551_24L-0523.cpp@183@declaration@T???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Claim@getDate@@()@24L-0551_24L-0523.cpp@708@definition@T????@LOC:1 COM:0 MVG:1@?@d@
+CCCC_Member@Claim@getStatus@@()@
+CCCC_MemExt@Claim@getStatus@@()@24L-0551_24L-0523.cpp@179@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Claim@getStatus@@()@24L-0551_24L-0523.cpp@707@definition@F????@LOC:1 COM:0 MVG:1@?@d@
+CCCC_Member@Claim@setStatus@@(ClaimStatus)@
+CCCC_MemExt@Claim@setStatus@@(ClaimStatus)@24L-0551_24L-0523.cpp@178@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Claim@setStatus@@(ClaimStatus)@24L-0551_24L-0523.cpp@706@definition@F????@LOC:1 COM:0 MVG:0@?@d@
+CCCC_Member@ClaimRepository@loadAll@@()@
+CCCC_MemExt@ClaimRepository@loadAll@@()@24L-0551_24L-0523.cpp@316@definition@F???0@LOC:15 COM:1 MVG:7@0@d@
+CCCC_Member@ClaimRepository@save@@(Claim *)@
+CCCC_MemExt@ClaimRepository@save@@(Claim *)@24L-0551_24L-0523.cpp@301@definition@F???0@LOC:13 COM:1 MVG:2@0@d@
+CCCC_Member@Company@Company@@(char *,char *,vector,vector,vector)@
+CCCC_MemExt@Company@Company@@(char *,char *,vector,vector,vector)@24L-0551_24L-0523.cpp@406@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Company@Company@@(char *,char *,vector,vector,vector)@24L-0551_24L-0523.cpp@437@definition@F????@LOC:11 COM:4 MVG:0@?@d@
+CCCC_Member@Company@addCustomer@@(char *,char *,char *)@
+CCCC_MemExt@Company@addCustomer@@(char *,char *,char *)@24L-0551_24L-0523.cpp@418@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Company@addCustomer@@(char *,char *,char *)@24L-0551_24L-0523.cpp@455@definition@F????@LOC:8 COM:2 MVG:0@?@d@
+CCCC_Member@Company@createClaim@@()@
+CCCC_MemExt@Company@createClaim@@()@24L-0551_24L-0523.cpp@409@declaration@F???0@LOC:1 COM:1 MVG:0@0@D@
+CCCC_MemExt@Company@createClaim@@()@24L-0551_24L-0523.cpp@496@definition@F????@LOC:27 COM:1 MVG:4@?@d@
+CCCC_Member@Company@displayCustomerClaimHistory@@(Customer *)@
+CCCC_MemExt@Company@displayCustomerClaimHistory@@(Customer *)@24L-0551_24L-0523.cpp@415@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Company@displayCustomerClaimHistory@@(Customer *)@24L-0551_24L-0523.cpp@555@definition@F????@LOC:17 COM:0 MVG:4@?@d@
+CCCC_Member@Company@displayCustomerDetails@@()@
+CCCC_MemExt@Company@displayCustomerDetails@@()@24L-0551_24L-0523.cpp@421@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Company@displayCustomerDetails@@()@24L-0551_24L-0523.cpp@481@definition@F????@LOC:10 COM:0 MVG:2@?@d@
+CCCC_Member@Company@displayInspectionReports@@()@
+CCCC_MemExt@Company@displayInspectionReports@@()@24L-0551_24L-0523.cpp@414@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Company@displayInspectionReports@@()@24L-0551_24L-0523.cpp@547@definition@F????@LOC:3 COM:1 MVG:0@?@d@
+CCCC_Member@Company@displayNewCustomersWon@@()@
+CCCC_MemExt@Company@displayNewCustomersWon@@()@24L-0551_24L-0523.cpp@412@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Company@displayNewCustomersWon@@()@24L-0551_24L-0523.cpp@540@definition@F????@LOC:6 COM:0 MVG:1@?@d@
+CCCC_Member@Company@displayPendingClaims@@()@
+CCCC_MemExt@Company@displayPendingClaims@@()@24L-0551_24L-0523.cpp@413@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Company@displayPendingClaims@@()@24L-0551_24L-0523.cpp@527@definition@F????@LOC:12 COM:0 MVG:3@?@d@
+CCCC_Member@Company@findCustomerByID@@(int)@
+CCCC_MemExt@Company@findCustomerByID@@(int)@24L-0551_24L-0523.cpp@423@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Company@findCustomerByID@@(int)@24L-0551_24L-0523.cpp@580@definition@F????@LOC:8 COM:1 MVG:4@?@d@
+CCCC_Member@Company@findVehicleByID@@(int)@
+CCCC_MemExt@Company@findVehicleByID@@(int)@24L-0551_24L-0523.cpp@425@declaration@F???0@LOC:1 COM:1 MVG:0@0@D@
+CCCC_MemExt@Company@findVehicleByID@@(int)@24L-0551_24L-0523.cpp@472@definition@F????@LOC:8 COM:0 MVG:5@?@d@
+CCCC_Member@Company@getClaims@@()@
+CCCC_MemExt@Company@getClaims@@()@24L-0551_24L-0523.cpp@427@declaration@T???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Company@getClaims@@()@24L-0551_24L-0523.cpp@590@definition@T????@LOC:1 COM:0 MVG:1@?@d@
+CCCC_Member@Company@getCustomers@@()@
+CCCC_MemExt@Company@getCustomers@@()@24L-0551_24L-0523.cpp@424@declaration@T???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Company@getCustomers@@()@24L-0551_24L-0523.cpp@589@definition@T????@LOC:1 COM:0 MVG:1@?@d@
+CCCC_Member@Company@getWorkshops@@()@
+CCCC_MemExt@Company@getWorkshops@@()@24L-0551_24L-0523.cpp@428@declaration@T???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Company@getWorkshops@@()@24L-0551_24L-0523.cpp@591@definition@T????@LOC:1 COM:0 MVG:1@?@d@
+CCCC_Member@Company@listRegisteredCustomers@@(char *)@
+CCCC_MemExt@Company@listRegisteredCustomers@@(char *)@24L-0551_24L-0523.cpp@422@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Company@listRegisteredCustomers@@(char *)@24L-0551_24L-0523.cpp@492@definition@F????@LOC:3 COM:1 MVG:0@?@d@
+CCCC_Member@Company@loadCompany@@()@
+CCCC_MemExt@Company@loadCompany@@()@24L-0551_24L-0523.cpp@408@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Company@loadCompany@@()@24L-0551_24L-0523.cpp@453@definition@F????@LOC:1 COM:0 MVG:0@?@d@
+CCCC_Member@Company@registerVehicle@@(Customer *,int,InsuranceDetails *,Workshop *)@
+CCCC_MemExt@Company@registerVehicle@@(Customer *,int,InsuranceDetails *,Workshop *)@24L-0551_24L-0523.cpp@419@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Company@registerVehicle@@(Customer *,int,InsuranceDetails *,Workshop *)@24L-0551_24L-0523.cpp@464@definition@F????@LOC:7 COM:2 MVG:0@?@d@
+CCCC_Member@Company@registerWorkshop@@(char *,char *,vector)@
+CCCC_MemExt@Company@registerWorkshop@@(char *,char *,vector)@24L-0551_24L-0523.cpp@430@declaration@F???0@LOC:1 COM:1 MVG:0@0@D@
+CCCC_MemExt@Company@registerWorkshop@@(char *,char *,vector)@24L-0551_24L-0523.cpp@573@definition@F????@LOC:6 COM:0 MVG:0@?@d@
+CCCC_Member@Company@saveCompany@@()@
+CCCC_MemExt@Company@saveCompany@@()@24L-0551_24L-0523.cpp@407@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Company@saveCompany@@()@24L-0551_24L-0523.cpp@452@definition@F????@LOC:1 COM:0 MVG:0@?@d@
+CCCC_Member@Company@saveInspection@@(Inspection *)@
+CCCC_MemExt@Company@saveInspection@@(Inspection *)@24L-0551_24L-0523.cpp@416@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Company@saveInspection@@(Inspection *)@24L-0551_24L-0523.cpp@551@definition@F????@LOC:3 COM:1 MVG:0@?@d@
+CCCC_Member@Company@~Company@@()@
+CCCC_MemExt@Company@~Company@@()@24L-0551_24L-0523.cpp@417@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Company@~Company@@()@24L-0551_24L-0523.cpp@769@definition@F????@LOC:5 COM:3 MVG:3@?@d@
+CCCC_Member@CompanyRepository@load@@(char *&,char *&)@
+CCCC_MemExt@CompanyRepository@load@@(char *&,char *&)@24L-0551_24L-0523.cpp@369@definition@F???0@LOC:12 COM:0 MVG:4@0@d@
+CCCC_Member@CompanyRepository@save@@(char *,char *)@
+CCCC_MemExt@CompanyRepository@save@@(char *,char *)@24L-0551_24L-0523.cpp@361@definition@F???0@LOC:7 COM:0 MVG:1@0@d@
+CCCC_Member@Customer@Customer@@(int,char *,char *,char *,vector)@
+CCCC_MemExt@Customer@Customer@@(int,char *,char *,char *,vector)@24L-0551_24L-0523.cpp@129@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Customer@Customer@@(int,char *,char *,char *,vector)@24L-0551_24L-0523.cpp@611@definition@F????@LOC:10 COM:3 MVG:0@?@d@
+CCCC_Member@Customer@display@@()@
+CCCC_MemExt@Customer@display@@()@24L-0551_24L-0523.cpp@130@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Customer@display@@()@24L-0551_24L-0523.cpp@626@definition@F????@LOC:6 COM:0 MVG:0@?@d@
+CCCC_Member@Customer@getAddress@@()@
+CCCC_MemExt@Customer@getAddress@@()@24L-0551_24L-0523.cpp@134@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Customer@getAddress@@()@24L-0551_24L-0523.cpp@633@definition@F????@LOC:1 COM:0 MVG:1@?@d@
+CCCC_Member@Customer@getCustomerID@@()@
+CCCC_MemExt@Customer@getCustomerID@@()@24L-0551_24L-0523.cpp@132@declaration@T???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Customer@getCustomerID@@()@24L-0551_24L-0523.cpp@636@definition@T????@LOC:1 COM:0 MVG:1@?@d@
+CCCC_Member@Customer@getName@@()@
+CCCC_MemExt@Customer@getName@@()@24L-0551_24L-0523.cpp@131@declaration@T???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Customer@getName@@()@24L-0551_24L-0523.cpp@635@definition@T????@LOC:1 COM:0 MVG:1@?@d@
+CCCC_Member@Customer@getPhoneNumber@@()@
+CCCC_MemExt@Customer@getPhoneNumber@@()@24L-0551_24L-0523.cpp@135@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Customer@getPhoneNumber@@()@24L-0551_24L-0523.cpp@634@definition@F????@LOC:1 COM:0 MVG:1@?@d@
+CCCC_Member@Customer@getVehicles@@()@
+CCCC_MemExt@Customer@getVehicles@@()@24L-0551_24L-0523.cpp@133@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Customer@getVehicles@@()@24L-0551_24L-0523.cpp@637@definition@F????@LOC:1 COM:0 MVG:1@?@d@
+CCCC_Member@Customer@~Customer@@()@
+CCCC_MemExt@Customer@~Customer@@()@24L-0551_24L-0523.cpp@136@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Customer@~Customer@@()@24L-0551_24L-0523.cpp@775@definition@F????@LOC:3 COM:0 MVG:1@?@d@
+CCCC_Member@CustomerRepository@findByID@@(int)@
+CCCC_MemExt@CustomerRepository@findByID@@(int)@24L-0551_24L-0523.cpp@242@definition@F???0@LOC:6 COM:1 MVG:4@0@d@
+CCCC_Member@CustomerRepository@listByMonth@@(char *)@
+CCCC_MemExt@CustomerRepository@listByMonth@@(char *)@24L-0551_24L-0523.cpp@250@definition@F???0@LOC:13 COM:1 MVG:5@0@d@
+CCCC_Member@CustomerRepository@loadAll@@()@
+CCCC_MemExt@CustomerRepository@loadAll@@()@24L-0551_24L-0523.cpp@221@definition@F???0@LOC:18 COM:1 MVG:8@0@d@
+CCCC_Member@CustomerRepository@save@@(Customer *)@
+CCCC_MemExt@CustomerRepository@save@@(Customer *)@24L-0551_24L-0523.cpp@207@definition@F???0@LOC:12 COM:1 MVG:1@0@d@
+CCCC_Member@Inspection@Inspection@@(int,Surveyor *,char *,char *,Claim *)@
+CCCC_MemExt@Inspection@Inspection@@(int,Surveyor *,char *,char *,Claim *)@24L-0551_24L-0523.cpp@194@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Inspection@Inspection@@(int,Surveyor *,char *,char *,Claim *)@24L-0551_24L-0523.cpp@723@definition@F????@LOC:9 COM:3 MVG:0@?@d@
+CCCC_Member@Inspection@generateInspectionReport@@()@
+CCCC_MemExt@Inspection@generateInspectionReport@@()@24L-0551_24L-0523.cpp@196@declaration@F???0@LOC:1 COM:1 MVG:0@0@D@
+CCCC_MemExt@Inspection@generateInspectionReport@@()@24L-0551_24L-0523.cpp@737@definition@F????@LOC:8 COM:0 MVG:1@?@d@
+CCCC_Member@Inspection@performInspection@@()@
+CCCC_MemExt@Inspection@performInspection@@()@24L-0551_24L-0523.cpp@195@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Inspection@performInspection@@()@24L-0551_24L-0523.cpp@733@definition@F????@LOC:3 COM:0 MVG:0@?@d@
+CCCC_Member@InspectionRepository@displayAll@@()@
+CCCC_MemExt@InspectionRepository@displayAll@@()@24L-0551_24L-0523.cpp@346@definition@F???0@LOC:11 COM:0 MVG:4@0@d@
+CCCC_Member@InspectionRepository@save@@(Inspection *)@
+CCCC_MemExt@InspectionRepository@save@@(Inspection *)@24L-0551_24L-0523.cpp@336@definition@F???0@LOC:9 COM:1 MVG:1@0@d@
+CCCC_Member@InsuranceDetails@InsuranceDetails@@(int,char *)@
+CCCC_MemExt@InsuranceDetails@InsuranceDetails@@(int,char *)@24L-0551_24L-0523.cpp@112@definition@F???0@LOC:5 COM:0 MVG:0@0@d@
+CCCC_Member@InsuranceDetails@getPolicy@@()@
+CCCC_MemExt@InsuranceDetails@getPolicy@@()@24L-0551_24L-0523.cpp@117@definition@T???0@LOC:1 COM:0 MVG:1@0@d@
+CCCC_Member@InsuranceDetails@getValidUntil@@()@
+CCCC_MemExt@InsuranceDetails@getValidUntil@@()@24L-0551_24L-0523.cpp@118@definition@T???0@LOC:1 COM:0 MVG:1@0@d@
+CCCC_Member@InsuranceSystemController@InsuranceSystemController@@(char *,char *,vector,vector,vector)@
+CCCC_MemExt@InsuranceSystemController@InsuranceSystemController@@(char *,char *,vector,vector,vector)@24L-0551_24L-0523.cpp@792@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@InsuranceSystemController@InsuranceSystemController@@(char *,char *,vector,vector,vector)@24L-0551_24L-0523.cpp@808@definition@F????@LOC:4 COM:0 MVG:0@?@d@
+CCCC_Member@InsuranceSystemController@claimApprovalByManager@@()@
+CCCC_MemExt@InsuranceSystemController@claimApprovalByManager@@()@24L-0551_24L-0523.cpp@798@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@InsuranceSystemController@claimApprovalByManager@@()@24L-0551_24L-0523.cpp@891@definition@F????@LOC:27 COM:0 MVG:6@?@d@
+CCCC_Member@InsuranceSystemController@displayCustomerClaimHistory@@(int)@
+CCCC_MemExt@InsuranceSystemController@displayCustomerClaimHistory@@(int)@24L-0551_24L-0523.cpp@804@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@InsuranceSystemController@displayCustomerClaimHistory@@(int)@24L-0551_24L-0523.cpp@973@definition@F????@LOC:8 COM:0 MVG:2@?@d@
+CCCC_Member@InsuranceSystemController@displayInspectionReports@@()@
+CCCC_MemExt@InsuranceSystemController@displayInspectionReports@@()@24L-0551_24L-0523.cpp@803@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@InsuranceSystemController@displayInspectionReports@@()@24L-0551_24L-0523.cpp@972@definition@F????@LOC:1 COM:0 MVG:0@?@d@
+CCCC_Member@InsuranceSystemController@displayNewCustomersWon@@()@
+CCCC_MemExt@InsuranceSystemController@displayNewCustomersWon@@()@24L-0551_24L-0523.cpp@801@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@InsuranceSystemController@displayNewCustomersWon@@()@24L-0551_24L-0523.cpp@970@definition@F????@LOC:1 COM:0 MVG:0@?@d@
+CCCC_Member@InsuranceSystemController@displayPendingClaims@@()@
+CCCC_MemExt@InsuranceSystemController@displayPendingClaims@@()@24L-0551_24L-0523.cpp@802@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@InsuranceSystemController@displayPendingClaims@@()@24L-0551_24L-0523.cpp@971@definition@F????@LOC:1 COM:0 MVG:0@?@d@
+CCCC_Member@InsuranceSystemController@inspectionBySurveyor@@()@
+CCCC_MemExt@InsuranceSystemController@inspectionBySurveyor@@()@24L-0551_24L-0523.cpp@797@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@InsuranceSystemController@inspectionBySurveyor@@()@24L-0551_24L-0523.cpp@858@definition@F????@LOC:27 COM:1 MVG:5@?@d@
+CCCC_Member@InsuranceSystemController@issueInsurancePolicy@@()@
+CCCC_MemExt@InsuranceSystemController@issueInsurancePolicy@@()@24L-0551_24L-0523.cpp@795@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@InsuranceSystemController@issueInsurancePolicy@@()@24L-0551_24L-0523.cpp@830@definition@F????@LOC:20 COM:0 MVG:2@?@d@
+CCCC_Member@InsuranceSystemController@registerCustomer@@(char *,char *,char *)@
+CCCC_MemExt@InsuranceSystemController@registerCustomer@@(char *,char *,char *)@24L-0551_24L-0523.cpp@793@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@InsuranceSystemController@registerCustomer@@(char *,char *,char *)@24L-0551_24L-0523.cpp@813@definition@F????@LOC:3 COM:0 MVG:0@?@d@
+CCCC_Member@InsuranceSystemController@registerVehicle@@(int,int)@
+CCCC_MemExt@InsuranceSystemController@registerVehicle@@(int,int)@24L-0551_24L-0523.cpp@794@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@InsuranceSystemController@registerVehicle@@(int,int)@24L-0551_24L-0523.cpp@817@definition@F????@LOC:10 COM:0 MVG:2@?@d@
+CCCC_Member@InsuranceSystemController@registerWorkshop@@(char *,char *,vector)@
+CCCC_MemExt@InsuranceSystemController@registerWorkshop@@(char *,char *,vector)@24L-0551_24L-0523.cpp@800@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@InsuranceSystemController@registerWorkshop@@(char *,char *,vector)@24L-0551_24L-0523.cpp@966@definition@F????@LOC:3 COM:0 MVG:0@?@d@
+CCCC_Member@InsuranceSystemController@saveInspection@@(Inspection *)@
+CCCC_MemExt@InsuranceSystemController@saveInspection@@(Inspection *)@24L-0551_24L-0523.cpp@805@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_Member@InsuranceSystemController@submitClaim@@()@
+CCCC_MemExt@InsuranceSystemController@submitClaim@@()@24L-0551_24L-0523.cpp@796@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@InsuranceSystemController@submitClaim@@()@24L-0551_24L-0523.cpp@854@definition@F????@LOC:3 COM:0 MVG:0@?@d@
+CCCC_Member@InsuranceSystemController@vehicleRepairAtRegisteredWorkshop@@()@
+CCCC_MemExt@InsuranceSystemController@vehicleRepairAtRegisteredWorkshop@@()@24L-0551_24L-0523.cpp@799@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@InsuranceSystemController@vehicleRepairAtRegisteredWorkshop@@()@24L-0551_24L-0523.cpp@923@definition@F????@LOC:36 COM:0 MVG:13@?@d@
+CCCC_Member@Manager@Manager@@(int,char *,char *)@
+CCCC_MemExt@Manager@Manager@@(int,char *,char *)@24L-0551_24L-0523.cpp@80@definition@F???0@LOC:4 COM:0 MVG:0@0@d@
+CCCC_Member@Manager@approveClaim@@(Claim *)@
+CCCC_MemExt@Manager@approveClaim@@(Claim *)@24L-0551_24L-0523.cpp@84@declaration@F???0@LOC:1 COM:1 MVG:0@0@D@
+CCCC_MemExt@Manager@approveClaim@@(Claim *)@24L-0551_24L-0523.cpp@602@definition@F????@LOC:4 COM:6 MVG:0@?@d@
+CCCC_Member@Manager@displayReport@@()@
+CCCC_MemExt@Manager@displayReport@@()@24L-0551_24L-0523.cpp@85@definition@F???0@LOC:1 COM:1 MVG:0@0@d@
+CCCC_Member@Manager@reviewInspectionReport@@(Inspection *)@
+CCCC_MemExt@Manager@reviewInspectionReport@@(Inspection *)@24L-0551_24L-0523.cpp@86@definition@F???0@LOC:1 COM:0 MVG:0@0@d@
+CCCC_Member@Salesman@Salesman@@(int,char *,Manager *)@
+CCCC_MemExt@Salesman@Salesman@@(int,char *,Manager *)@24L-0551_24L-0523.cpp@93@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@Staff@Staff@@(int,char *)@
+CCCC_MemExt@Staff@Staff@@(int,char *)@24L-0551_24L-0523.cpp@64@definition@F???0@LOC:5 COM:0 MVG:0@0@d@
+CCCC_Member@Staff@display@@()@
+CCCC_MemExt@Staff@display@@()@24L-0551_24L-0523.cpp@69@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@Staff@getName@@()@
+CCCC_MemExt@Staff@getName@@()@24L-0551_24L-0523.cpp@72@definition@T???0@LOC:1 COM:0 MVG:1@0@d@
+CCCC_Member@Staff@getStaffID@@()@
+CCCC_MemExt@Staff@getStaffID@@()@24L-0551_24L-0523.cpp@73@definition@T???0@LOC:1 COM:0 MVG:1@0@d@
+CCCC_Member@Surveyor@Surveyor@@(int,char *,Manager *)@
+CCCC_MemExt@Surveyor@Surveyor@@(int,char *,Manager *)@24L-0551_24L-0523.cpp@102@definition@F???0@LOC:3 COM:0 MVG:0@0@d@
+CCCC_Member@Vehicle@Vehicle@@(int,int,Customer *,InsuranceDetails *,Workshop *)@
+CCCC_MemExt@Vehicle@Vehicle@@(int,int,Customer *,InsuranceDetails *,Workshop *)@24L-0551_24L-0523.cpp@160@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Vehicle@Vehicle@@(int,int,Customer *,InsuranceDetails *,Workshop *)@24L-0551_24L-0523.cpp@643@definition@F????@LOC:7 COM:3 MVG:0@?@d@
+CCCC_Member@Vehicle@display@@()@
+CCCC_MemExt@Vehicle@display@@()@24L-0551_24L-0523.cpp@164@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Vehicle@display@@()@24L-0551_24L-0523.cpp@672@definition@F????@LOC:12 COM:0 MVG:1@?@d@
+CCCC_Member@Vehicle@getOwner@@()@
+CCCC_MemExt@Vehicle@getOwner@@()@24L-0551_24L-0523.cpp@167@declaration@T???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Vehicle@getOwner@@()@24L-0551_24L-0523.cpp@687@definition@T????@LOC:1 COM:0 MVG:1@?@d@
+CCCC_Member@Vehicle@getVehicleID@@()@
+CCCC_MemExt@Vehicle@getVehicleID@@()@24L-0551_24L-0523.cpp@165@declaration@T???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Vehicle@getVehicleID@@()@24L-0551_24L-0523.cpp@685@definition@T????@LOC:1 COM:0 MVG:1@?@d@
+CCCC_Member@Vehicle@getYear@@()@
+CCCC_MemExt@Vehicle@getYear@@()@24L-0551_24L-0523.cpp@166@declaration@T???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Vehicle@getYear@@()@24L-0551_24L-0523.cpp@686@definition@T????@LOC:1 COM:0 MVG:1@?@d@
+CCCC_Member@Vehicle@issueInsurancePolicy@@()@
+CCCC_MemExt@Vehicle@issueInsurancePolicy@@()@24L-0551_24L-0523.cpp@161@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Vehicle@issueInsurancePolicy@@()@24L-0551_24L-0523.cpp@651@definition@F????@LOC:8 COM:0 MVG:1@?@d@
+CCCC_Member@Vehicle@setInsurancePolicy@@(InsuranceDetails *)@
+CCCC_MemExt@Vehicle@setInsurancePolicy@@(InsuranceDetails *)@24L-0551_24L-0523.cpp@162@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Vehicle@setInsurancePolicy@@(InsuranceDetails *)@24L-0551_24L-0523.cpp@660@definition@F????@LOC:1 COM:0 MVG:0@?@d@
+CCCC_Member@Vehicle@viewInsuranceDetails@@()@
+CCCC_MemExt@Vehicle@viewInsuranceDetails@@()@24L-0551_24L-0523.cpp@163@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Vehicle@viewInsuranceDetails@@()@24L-0551_24L-0523.cpp@662@definition@F????@LOC:9 COM:0 MVG:1@?@d@
+CCCC_Member@VehicleRepository@loadAll@@()@
+CCCC_MemExt@VehicleRepository@loadAll@@()@24L-0551_24L-0523.cpp@282@definition@F???0@LOC:14 COM:1 MVG:6@0@d@
+CCCC_Member@VehicleRepository@save@@(Vehicle *)@
+CCCC_MemExt@VehicleRepository@save@@(Vehicle *)@24L-0551_24L-0523.cpp@268@definition@F???0@LOC:12 COM:1 MVG:2@0@d@
+CCCC_Member@Workshop@Workshop@@(char *,char *,vector,vector)@
+CCCC_MemExt@Workshop@Workshop@@(char *,char *,vector,vector)@24L-0551_24L-0523.cpp@146@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Workshop@Workshop@@(char *,char *,vector,vector)@24L-0551_24L-0523.cpp@750@definition@F????@LOC:8 COM:3 MVG:0@?@d@
+CCCC_Member@Workshop@assignVehicleWorkshop@@(Vehicle *)@
+CCCC_MemExt@Workshop@assignVehicleWorkshop@@(Vehicle *)@24L-0551_24L-0523.cpp@147@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Workshop@assignVehicleWorkshop@@(Vehicle *)@24L-0551_24L-0523.cpp@759@definition@F????@LOC:3 COM:0 MVG:0@?@d@
+CCCC_Member@Workshop@getID@@()@
+CCCC_MemExt@Workshop@getID@@()@24L-0551_24L-0523.cpp@148@declaration@T???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Workshop@getID@@()@24L-0551_24L-0523.cpp@763@definition@T????@LOC:1 COM:0 MVG:1@?@d@
+CCCC_Member@Workshop@~Workshop@@()@
+CCCC_MemExt@Workshop@~Workshop@@()@24L-0551_24L-0523.cpp@149@declaration@F???0@LOC:1 COM:0 MVG:0@0@D@
+CCCC_MemExt@Workshop@~Workshop@@()@24L-0551_24L-0523.cpp@779@definition@F????@LOC:4 COM:0 MVG:2@?@d@
+CCCC_Member@anonymous@main@@()@
+CCCC_MemExt@anonymous@main@@()@24L-0551_24L-0523.cpp@1092@definition@F????@LOC:3 COM:1 MVG:1@?@d@
+CCCC_Member@anonymous@menu@@()@
+CCCC_MemExt@anonymous@menu@@()@24L-0551_24L-0523.cpp@984@definition@F????@LOC:92 COM:4 MVG:14@?@d@
+CCCC_UseRel@Vehicle@Claim@
+CCCC_UseExt@Vehicle@Claim@24L-0551_24L-0523.cpp@175@has by reference@T???2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseExt@Vehicle@Claim@24L-0551_24L-0523.cpp@177@pass by reference@F???0@*@0@p@
+CCCC_UseExt@Vehicle@Claim@24L-0551_24L-0523.cpp@698@pass by reference@T????@*@?@p@
+CCCC_UseRel@Claim@ClaimRepository@
+CCCC_UseExt@Claim@ClaimRepository@24L-0551_24L-0523.cpp@301@pass by reference@F???0@*@0@p@
+CCCC_UseRel@ClaimRepository@Company@
+CCCC_UseExt@ClaimRepository@Company@24L-0551_24L-0523.cpp@401@has by value@F???2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseRel@CompanyRepository@Company@
+CCCC_UseExt@CompanyRepository@Company@24L-0551_24L-0523.cpp@403@has by value@F???2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseRel@Customer@Company@
+CCCC_UseExt@Customer@Company@24L-0551_24L-0523.cpp@415@pass by reference@F???0@*@0@p@
+CCCC_UseExt@Customer@Company@24L-0551_24L-0523.cpp@419@pass by reference@F???0@*@0@p@
+CCCC_UseExt@Customer@Company@24L-0551_24L-0523.cpp@464@pass by reference@F????@*@?@p@
+CCCC_UseExt@Customer@Company@24L-0551_24L-0523.cpp@555@pass by reference@F????@*@?@p@
+CCCC_UseRel@CustomerRepository@Company@
+CCCC_UseExt@CustomerRepository@Company@24L-0551_24L-0523.cpp@399@has by value@F???2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseRel@Inspection@Company@
+CCCC_UseExt@Inspection@Company@24L-0551_24L-0523.cpp@416@pass by reference@F???0@*@0@p@
+CCCC_UseExt@Inspection@Company@24L-0551_24L-0523.cpp@551@pass by reference@F????@*@?@p@
+CCCC_UseRel@InspectionRepository@Company@
+CCCC_UseExt@InspectionRepository@Company@24L-0551_24L-0523.cpp@402@has by value@F???2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseRel@InsuranceDetails@Company@
+CCCC_UseExt@InsuranceDetails@Company@24L-0551_24L-0523.cpp@419@pass by reference@F???0@*@0@p@
+CCCC_UseExt@InsuranceDetails@Company@24L-0551_24L-0523.cpp@464@pass by reference@F????@*@?@p@
+CCCC_UseRel@VehicleRepository@Company@
+CCCC_UseExt@VehicleRepository@Company@24L-0551_24L-0523.cpp@400@has by value@F???2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseRel@Workshop@Company@
+CCCC_UseExt@Workshop@Company@24L-0551_24L-0523.cpp@419@pass by reference@F???0@*@0@p@
+CCCC_UseExt@Workshop@Company@24L-0551_24L-0523.cpp@464@pass by reference@F????@*@?@p@
+CCCC_UseRel@vector@Company@
+CCCC_UseExt@vector@Company@24L-0551_24L-0523.cpp@393@has by value@F???2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@vector@Company@24L-0551_24L-0523.cpp@394@has by value@F???2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@vector@Company@24L-0551_24L-0523.cpp@395@has by value@F???2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@vector@Company@24L-0551_24L-0523.cpp@406@pass by value@F???0@*@0@P@
+CCCC_UseExt@vector@Company@24L-0551_24L-0523.cpp@406@pass by value@F???0@*@0@P@
+CCCC_UseExt@vector@Company@24L-0551_24L-0523.cpp@406@pass by value@F???0@*@0@P@
+CCCC_UseExt@vector@Company@24L-0551_24L-0523.cpp@430@pass by value@F???0@*@0@P@
+CCCC_UseExt@vector@Company@24L-0551_24L-0523.cpp@437@pass by value@F????@*@?@P@
+CCCC_UseExt@vector@Company@24L-0551_24L-0523.cpp@437@pass by value@F????@*@?@P@
+CCCC_UseExt@vector@Company@24L-0551_24L-0523.cpp@437@pass by value@F????@*@?@P@
+CCCC_UseExt@vector@Company@24L-0551_24L-0523.cpp@573@pass by value@F????@*@?@P@
+CCCC_UseRel@vector@Customer@
+CCCC_UseExt@vector@Customer@24L-0551_24L-0523.cpp@127@has by value@T???2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@vector@Customer@24L-0551_24L-0523.cpp@129@pass by value@F???0@*@0@P@
+CCCC_UseExt@vector@Customer@24L-0551_24L-0523.cpp@611@pass by value@F????@*@?@P@
+CCCC_UseRel@Customer@CustomerRepository@
+CCCC_UseExt@Customer@CustomerRepository@24L-0551_24L-0523.cpp@207@pass by reference@F???0@*@0@p@
+CCCC_UseRel@Claim@Inspection@
+CCCC_UseExt@Claim@Inspection@24L-0551_24L-0523.cpp@192@has by reference@T???2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseExt@Claim@Inspection@24L-0551_24L-0523.cpp@194@pass by reference@F???0@*@0@p@
+CCCC_UseExt@Claim@Inspection@24L-0551_24L-0523.cpp@723@pass by reference@T????@*@?@p@
+CCCC_UseRel@Surveyor@Inspection@
+CCCC_UseExt@Surveyor@Inspection@24L-0551_24L-0523.cpp@189@has by reference@T???2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseExt@Surveyor@Inspection@24L-0551_24L-0523.cpp@194@pass by reference@F???0@*@0@p@
+CCCC_UseExt@Surveyor@Inspection@24L-0551_24L-0523.cpp@723@pass by reference@T????@*@?@p@
+CCCC_UseRel@Inspection@InspectionRepository@
+CCCC_UseExt@Inspection@InspectionRepository@24L-0551_24L-0523.cpp@336@pass by reference@F???0@*@0@p@
+CCCC_UseRel@Company@InsuranceSystemController@
+CCCC_UseExt@Company@InsuranceSystemController@24L-0551_24L-0523.cpp@790@has by reference@F???2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseRel@Inspection@InsuranceSystemController@
+CCCC_UseExt@Inspection@InsuranceSystemController@24L-0551_24L-0523.cpp@805@pass by reference@F???0@*@0@p@
+CCCC_UseRel@vector@InsuranceSystemController@
+CCCC_UseExt@vector@InsuranceSystemController@24L-0551_24L-0523.cpp@792@pass by value@F???0@*@0@P@
+CCCC_UseExt@vector@InsuranceSystemController@24L-0551_24L-0523.cpp@792@pass by value@F???0@*@0@P@
+CCCC_UseExt@vector@InsuranceSystemController@24L-0551_24L-0523.cpp@792@pass by value@F???0@*@0@P@
+CCCC_UseExt@vector@InsuranceSystemController@24L-0551_24L-0523.cpp@800@pass by value@F???0@*@0@P@
+CCCC_UseExt@vector@InsuranceSystemController@24L-0551_24L-0523.cpp@809@pass by value@F????@*@?@P@
+CCCC_UseExt@vector@InsuranceSystemController@24L-0551_24L-0523.cpp@809@pass by value@F????@*@?@P@
+CCCC_UseExt@vector@InsuranceSystemController@24L-0551_24L-0523.cpp@809@pass by value@F????@*@?@P@
+CCCC_UseExt@vector@InsuranceSystemController@24L-0551_24L-0523.cpp@966@pass by value@F????@*@?@P@
+CCCC_UseRel@Claim@Manager@
+CCCC_UseExt@Claim@Manager@24L-0551_24L-0523.cpp@84@pass by reference@F???0@*@0@p@
+CCCC_UseExt@Claim@Manager@24L-0551_24L-0523.cpp@602@pass by reference@T????@*@?@p@
+CCCC_UseRel@Inspection@Manager@
+CCCC_UseExt@Inspection@Manager@24L-0551_24L-0523.cpp@86@pass by reference@F???0@*@0@p@
+CCCC_UseRel@Staff@Manager@
+CCCC_UseExt@Staff@Manager@24L-0551_24L-0523.cpp@76@inheritance@T???0@*@0@I@
+CCCC_UseRel@Manager@Salesman@
+CCCC_UseExt@Manager@Salesman@24L-0551_24L-0523.cpp@91@has by reference@F???2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseExt@Manager@Salesman@24L-0551_24L-0523.cpp@93@pass by reference@F???0@*@0@p@
+CCCC_UseRel@Staff@Salesman@
+CCCC_UseExt@Staff@Salesman@24L-0551_24L-0523.cpp@89@inheritance@F???0@*@0@I@
+CCCC_UseRel@Manager@Surveyor@
+CCCC_UseExt@Manager@Surveyor@24L-0551_24L-0523.cpp@100@has by reference@F???2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseExt@Manager@Surveyor@24L-0551_24L-0523.cpp@102@pass by reference@F???0@*@0@p@
+CCCC_UseRel@Staff@Surveyor@
+CCCC_UseExt@Staff@Surveyor@24L-0551_24L-0523.cpp@98@inheritance@F???0@*@0@I@
+CCCC_UseRel@Customer@Vehicle@
+CCCC_UseExt@Customer@Vehicle@24L-0551_24L-0523.cpp@156@has by reference@F???2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseExt@Customer@Vehicle@24L-0551_24L-0523.cpp@160@pass by reference@F???0@*@0@p@
+CCCC_UseExt@Customer@Vehicle@24L-0551_24L-0523.cpp@643@pass by reference@F????@*@?@p@
+CCCC_UseRel@InsuranceDetails@Vehicle@
+CCCC_UseExt@InsuranceDetails@Vehicle@24L-0551_24L-0523.cpp@157@has by reference@F???2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseExt@InsuranceDetails@Vehicle@24L-0551_24L-0523.cpp@160@pass by reference@F???0@*@0@p@
+CCCC_UseExt@InsuranceDetails@Vehicle@24L-0551_24L-0523.cpp@162@pass by reference@F???0@*@0@p@
+CCCC_UseExt@InsuranceDetails@Vehicle@24L-0551_24L-0523.cpp@643@pass by reference@F????@*@?@p@
+CCCC_UseExt@InsuranceDetails@Vehicle@24L-0551_24L-0523.cpp@660@pass by reference@F????@*@?@p@
+CCCC_UseRel@Workshop@Vehicle@
+CCCC_UseExt@Workshop@Vehicle@24L-0551_24L-0523.cpp@158@has by reference@F???2@LOC:0 COM:0 MVG:0@2@h@
+CCCC_UseExt@Workshop@Vehicle@24L-0551_24L-0523.cpp@160@pass by reference@F???0@*@0@p@
+CCCC_UseExt@Workshop@Vehicle@24L-0551_24L-0523.cpp@643@pass by reference@F????@*@?@p@
+CCCC_UseRel@Vehicle@VehicleRepository@
+CCCC_UseExt@Vehicle@VehicleRepository@24L-0551_24L-0523.cpp@268@pass by reference@F???0@*@0@p@
+CCCC_UseRel@Vehicle@Workshop@
+CCCC_UseExt@Vehicle@Workshop@24L-0551_24L-0523.cpp@147@pass by reference@F???0@*@0@p@
+CCCC_UseExt@Vehicle@Workshop@24L-0551_24L-0523.cpp@759@pass by reference@F????@*@?@p@
+CCCC_UseRel@vector@Workshop@
+CCCC_UseExt@vector@Workshop@24L-0551_24L-0523.cpp@143@has by value@F???2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@vector@Workshop@24L-0551_24L-0523.cpp@144@has by value@F???2@LOC:0 COM:0 MVG:0@2@H@
+CCCC_UseExt@vector@Workshop@24L-0551_24L-0523.cpp@146@pass by value@F???0@*@0@P@
+CCCC_UseExt@vector@Workshop@24L-0551_24L-0523.cpp@146@pass by value@F???0@*@0@P@
+CCCC_UseExt@vector@Workshop@24L-0551_24L-0523.cpp@750@pass by value@F????@*@?@P@
+CCCC_UseExt@vector@Workshop@24L-0551_24L-0523.cpp@750@pass by value@F????@*@?@P@
+CCCC_RejExt@24L-0551_24L-0523.cpp@1@<file scope items>@F????@LOC:3 COM:1 MVG:0@?@r@

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module vector-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="0" />
+<lines_of_code value="0" level="0" />
+<lines_of_code_per_member_function value="********" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<weighted_methods_per_class_unity value="0" level="0" />
+<weighted_methods_per_class_visibility value="0" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="4" level="0" />
+<IF4 value="0" level="0" />
+<IF4_per_member_function value="********" level="0" />
+<IF4_visible value="0" level="0" />
+<IF4_visible_per_member_function value="********" level="0" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+</module_detail>
+<procedural_detail>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>vector</name>
+<client_module>
+<name>Company</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="393" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="394" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="395" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="406" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="406" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="406" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="430" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="437" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="437" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="437" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="573" />
+</extent>
+<name>Customer</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="127" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="129" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="611" />
+</extent>
+<name>InsuranceSystemController</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="792" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="792" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="792" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="800" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="809" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="809" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="809" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="966" />
+</extent>
+<name>Workshop</name>
+<visible>true</visible>
+<concrete>true</concrete>
+<extent>
+<description>has by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="143" />
+</extent>
+<extent>
+<description>has by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="144" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="146" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="146" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="750" />
+</extent>
+<extent>
+<description>pass by value</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="750" />
+</extent>
+</client_module>
+<supplier_module>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Detailed report on module Claim-->
+<CCCC_Project>
+<module_summary>
+<lines_of_code value="33" level="0" />
+<lines_of_code_per_member_function value="******" level="0" />
+<McCabes_cyclomatic_complexity value="6" level="0" />
+<McCabes_cyclomatic_complexity_per_member_function value="******" level="2" />
+<lines_of_code value="7" level="0" />
+<lines_of_code_per_member_function value="********" level="2" />
+<lines_of_code_per_line_of_comment value="4.714" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="0.857" level="0" />
+<weighted_methods_per_class_unity value="7" level="0" />
+<weighted_methods_per_class_visibility value="7" level="0" />
+<depth_of_inheritance_tree value="0" level="0" />
+<number_of_children value="0" level="0" />
+<coupling_between_objects value="4" level="0" />
+<IF4 value="9" level="0" />
+<IF4_per_member_function value="********" level="2" />
+<IF4_visible value="9" level="0" />
+<IF4_visible_per_member_function value="********" level="2" />
+<IF4_concrete value="0" level="0" />
+<IF4_concrete_per_member_function value="********" level="0" />
+</module_summary>
+<module_detail>
+<description>declaration</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="52" />
+<lines_of_code value="1" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+<description>definition</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="170" />
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="1" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</module_detail>
+<procedural_detail>
+<member_function>
+<name>Claim(int,ClaimStatus,char *,Vehicle *)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="177" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="698" />
+</extent>
+<lines_of_code value="8" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="6" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>display()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="180" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="711" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getBelongsTo()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="181" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="715" />
+</extent>
+<lines_of_code value="4" level="0" />
+<McCabes_cyclomatic_complexity value="3" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getClaimID()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="182" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="709" />
+</extent>
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getDate()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="183" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="708" />
+</extent>
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>getStatus()</name>
+<extent>
+<description>declaration</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="179" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="707" />
+</extent>
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="1" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+<member_function>
+<name>setStatus(ClaimStatus)</name>
+<extent>
+<description>declaration</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="178" />
+</extent>
+<extent>
+<description>definition</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="706" />
+</extent>
+<lines_of_code value="2" level="0" />
+<McCabes_cyclomatic_complexity value="0" level="0" />
+<lines_of_comment value="0" level="0" />
+<lines_of_code_per_line_of_comment value="------" level="0" />
+<McCabes_cyclomatic_complexity_per_line_of_comment value="------" level="0" />
+</member_function>
+</procedural_detail>
+<structural_detail>
+<module>
+<name>Claim</name>
+<client_module>
+<name>ClaimRepository</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="301" />
+</extent>
+<name>Inspection</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>has by reference</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="192" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="194" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="723" />
+</extent>
+<name>Manager</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>pass by reference</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="84" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="602" />
+</extent>
+</client_module>
+<supplier_module>
+<name>Vehicle</name>
+<visible>true</visible>
+<concrete>false</concrete>
+<extent>
+<description>has by reference</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="175" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="177" />
+</extent>
+<extent>
+<description>pass by reference</description>
+<source_reference file="24L-0551_24L-0523.cpp" line="698" />
+</extent>
+</supplier_module>
+</module>
+</structural_detail>
+</CCCC_Project>
