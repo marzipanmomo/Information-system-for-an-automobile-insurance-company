@@ -58,7 +58,7 @@ public:
 	Staff(int id, char* name) {
 		staffID = id;
 		staffName = new char[strlen(name) + 1];
-		strcpy(staffName, name);
+		strcpy_s(staffName, strlen(name) + 1, name);
 	}
 	void display() {
 		cout << "staff id : " << staffID << "\n" << "staff name : " << staffName << "\n";
@@ -75,7 +75,7 @@ private:
 public:
 	Manager(int id, char* name, char* des) : Staff(id, name) {
 		designation = new char[strlen(des) + 1];
-		strcpy(designation, des);
+		strcpy_s(designation, strlen(des) + 1, des);
 	}
 	void approveClaim(Claim* claim); //implemented after Claim is fully defined
 	void displayReport() {}          //requests from Company
@@ -117,7 +117,7 @@ public:
 	InsuranceDetails(int policyNum, char* exp) {
 		policyNumber = policyNum;
 		validUntil = new char[strlen(exp) + 1];
-		strcpy(validUntil, exp);
+		strcpy_s(validUntil, strlen(exp) + 1, exp);
 	}
 	int getPolicy() const { return policyNumber; }
 	char* getValidUntil() const { return validUntil; }
@@ -408,9 +408,9 @@ public:
 		in.getline(line, 256);
 		char* next = nullptr;
 		char* token = strtok_s(line, "|", &next);
-		if (token) { name = new char[strlen(token) + 1]; strcpy(name, token); }
+		if (token) { name = new char[strlen(token) + 1]; strcpy_s(name, strlen(token) + 1, token); }
 		token = strtok_s(nullptr, "|", &next);
-		if (token) { address = new char[strlen(token) + 1]; strcpy(address, token); }
+		if (token) { address = new char[strlen(token) + 1]; strcpy_s(address, strlen(token) + 1, token); }
 		cout << "company data loaded\n";
 	}
 };
@@ -467,10 +467,10 @@ public:
 Company::Company(char* name, char* addr, vector<Customer*> c, vector<Workshop*> w, vector<Claim*> cl) {
 	cout << "Company Created" << endl;
 	companyName = new char[strlen(name) + 1];
-	strcpy(companyName, name);
+	strcpy_s(companyName, strlen(name) + 1, name);
 
 	addressHQ = new char[strlen(addr) + 1];
-	strcpy(addressHQ, addr);
+	strcpy_s(addressHQ, strlen(addr) + 1, addr);
 
 	customers = c;
 	workshops = w;
@@ -657,13 +657,13 @@ Customer::Customer(int id, char* name, char* address, char* number, vector<Vehic
 	customerID = id;
 
 	this->name = new char[strlen(name) + 1];
-	strcpy(this->name, name);
+	strcpy_s(this->name, strlen(name) + 1, name);
 
 	this->address = new char[strlen(address) + 1];
-	strcpy(this->address, address);
+	strcpy_s(this->address, strlen(address) + 1, address);
 
 	this->phoneNumber = new char[strlen(number) + 1];
-	strcpy(this->phoneNumber, number);
+	strcpy_s(this->phoneNumber, strlen(number) + 1, number);
 
 	this->vehicle = vehicle;
 }
@@ -749,7 +749,7 @@ Claim::Claim(int id, ClaimStatus status, char* date, Vehicle* vehicle) {
 	claimID = id;
 	this->status = status;
 	this->date = new char[strlen(date) + 1];
-	strcpy(this->date, date);
+	strcpy_s(this->date, strlen(date) + 1, date);
 	this->vehicle = vehicle;
 }
 
@@ -774,9 +774,9 @@ Inspection::Inspection(int id, Surveyor* name, char* date, char* findings, Claim
 	inspectionID = id;
 	inspector = name;
 	this->date = new char[strlen(date) + 1];
-	strcpy(this->date, date);
+	strcpy_s(this->date, strlen(date) + 1, date);
 	this->findings = new char[strlen(findings) + 1];
-	strcpy(this->findings, findings);
+	strcpy_s(this->findings, strlen(findings) + 1, findings);
 	this->claim = claim;
 }
 
@@ -786,10 +786,10 @@ void Inspection::performInspection() {
 
 char* Inspection::generateInspectionReport() {
 	char tmp[512];
-	sprintf(tmp, "Inspection ID: %d | Date: %s | Findings: %s",
+	sprintf_s(tmp, "Inspection ID: %d | Date: %s | Findings: %s",
 		inspectionID, date, findings);
 	char* report = new char[strlen(tmp) + 1];
-	strcpy(report, tmp);
+	strcpy_s(report, strlen(tmp) + 1, tmp);
 	return report;
 }
 
@@ -799,9 +799,9 @@ char* Inspection::generateInspectionReport() {
 
 Workshop::Workshop(char* id, char* addr, vector<Staff*> staff, vector<Vehicle*> vehicles) {
 	workshopID = new char[strlen(id) + 1];
-	strcpy(workshopID, id);
+	strcpy_s(workshopID, strlen(id) + 1, id);
 	address = new char[strlen(addr) + 1];
-	strcpy(address, addr);
+	strcpy_s(address, strlen(addr) + 1, addr);
 	staffList = staff;
 	vehicleList = vehicles;
 }
